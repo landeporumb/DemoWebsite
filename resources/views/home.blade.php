@@ -1,154 +1,125 @@
 @extends('layouts.app')
 
 @section('content')
+
 <!-- Banner -->
-<!-- <section id="banner">
-        <div class="inner">
-            <h1>Industrious</h1>
-            <p>A responsive business oriented template with a video background<br />
-                designed by <a href="https://templated.co/">TEMPLATED</a> and released under the Creative Commons
-                License.</p>
-        </div>
-        <video autoplay loop muted playsinline src="images/banner.mp4"></video>
-    </section> -->
+<section id="banner">
+    <h2>Hi. This is Transit.</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    <ul class="actions">
+        <li>
+            <a href="#" class="button big">Lorem ipsum dolor</a>
+        </li>
+    </ul>
+</section>
 
-<!-- Highlights -->
-<section class="wrapper">
-    <div class="inner">
-        <header class="special">
-            <h2>Sem turpis amet semper</h2>
-            <p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer
-                lobortis commodo ornare aliquet accumsan erat tempus amet porttitor.</p>
+<!-- One -->
+<section id="one" class="wrapper style1 special">
+    <div class="container">
+        <header class="major">
+            <h2>Consectetur adipisicing elit</h2>
+            <p>Lorem ipsum dolor sit amet, delectus consequatur, similique quia!</p>
         </header>
-        <div class="highlights">
-            <section>
-                <div class="content">
-                    <header>
-                        <a href="#" class="icon fa-vcard-o"><span class="label">Icon</span></a>
-                        <h3>Feugiat consequat</h3>
-                    </header>
-                    <p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non
-                        mi integer non faucibus.</p>
-                </div>
-            </section>
-            <section>
-                <div class="content">
-                    <header>
-                        <a href="#" class="icon fa-files-o"><span class="label">Icon</span></a>
-                        <h3>Ante sem integer</h3>
-                    </header>
-                    <p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non
-                        mi integer non faucibus.</p>
-                </div>
-            </section>
-            <section>
-                <div class="content">
-                    <header>
-                        <a href="#" class="icon fa-floppy-o"><span class="label">Icon</span></a>
-                        <h3>Ipsum consequat</h3>
-                    </header>
-                    <p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non
-                        mi integer non faucibus.</p>
-                </div>
-            </section>
-            <section>
-                <div class="content">
-                    <header>
-                        <a href="#" class="icon fa-line-chart"><span class="label">Icon</span></a>
-                        <h3>Interdum gravida</h3>
-                    </header>
-                    <p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non
-                        mi integer non faucibus.</p>
-                </div>
-            </section>
-            <section>
-                <div class="content">
-                    <header>
-                        <a href="#" class="icon fa-paper-plane-o"><span class="label">Icon</span></a>
-                        <h3>Faucibus consequat</h3>
-                    </header>
-                    <p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non
-                        mi integer non faucibus.</p>
-                </div>
-            </section>
-            <section>
-                <div class="content">
-                    <header>
-                        <a href="#" class="icon fa-qrcode"><span class="label">Icon</span></a>
-                        <h3>Accumsan viverra</h3>
-                    </header>
-                    <p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non
-                        mi integer non faucibus.</p>
-                </div>
-            </section>
+        <div class="row 150%">
+            <div class="4u 12u$(medium)">
+                <section class="box">
+                    <i class="icon big rounded color1 fa-cloud"></i>
+                    <h3>Lorem ipsum dolor</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim quam consectetur quibusdam magni
+                        minus aut modi aliquid.</p>
+                </section>
+            </div>
+            <div class="4u 12u$(medium)">
+                <section class="box">
+                    <i class="icon big rounded color9 fa-desktop"></i>
+                    <h3>Consectetur adipisicing</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium ullam consequatur repellat
+                        debitis maxime.</p>
+                </section>
+            </div>
+            <div class="4u$ 12u$(medium)">
+                <section class="box">
+                    <i class="icon big rounded color6 fa-rocket"></i>
+                    <h3>Adipisicing elit totam</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque eaque eveniet, nesciunt
+                        molestias. Ipsam, voluptate vero.</p>
+                </section>
+            </div>
         </div>
     </div>
 </section>
 
-<!-- CTA -->
-<section id="cta" class="wrapper">
-    <div class="inner">
-        <h2>Curabitur ullamcorper ultricies</h2>
-        <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non
-            faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan
-            varius montes viverra nibh in adipiscing. Lorem ipsum dolor vestibulum ante ipsum primis in faucibus
-            vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing sed feugiat eu faucibus. Integer
-            ac sed amet praesent. Nunc lacinia ante nunc ac gravida.</p>
+<!-- Two -->
+<section id="two" class="wrapper style2 special">
+    <div class="container">
+        <header class="major">
+            <h2>Lorem ipsum dolor sit</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, autem.</p>
+        </header>
+        <section class="profiles">
+            <div class="row">
+                <section class="3u 6u(medium) 12u$(xsmall) profile">
+                    <img src="images/profile_placeholder.gif" alt="" />
+                    <h4>Lorem ipsum</h4>
+                    <p>Lorem ipsum dolor</p>
+                </section>
+                <section class="3u 6u$(medium) 12u$(xsmall) profile">
+                    <img src="images/profile_placeholder.gif" alt="" />
+                    <h4>Voluptatem dolores</h4>
+                    <p>Ullam nihil repudi</p>
+                </section>
+                <section class="3u 6u(medium) 12u$(xsmall) profile">
+                    <img src="images/profile_placeholder.gif" alt="" />
+                    <h4>Doloremque quo</h4>
+                    <p>Harum corrupti quia</p>
+                </section>
+                <section class="3u$ 6u$(medium) 12u$(xsmall) profile">
+                    <img src="images/profile_placeholder.gif" alt="" />
+                    <h4>Voluptatem dicta</h4>
+                    <p>Et natus sapiente</p>
+                </section>
+            </div>
+        </section>
+        <footer>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam dolore illum, temporibus veritatis
+                eligendi, aliquam, dolor enim itaque veniam aut eaque sequi qui quia vitae pariatur repudiandae ab
+                dignissimos ex!</p>
+            <ul class="actions">
+                <li>
+                    <a href="#" class="button big">Lorem ipsum dolor sit</a>
+                </li>
+            </ul>
+        </footer>
     </div>
 </section>
 
-<!-- Testimonials -->
-<section class="wrapper">
-    <div class="inner">
-        <header class="special">
-            <h2>Faucibus consequat lorem</h2>
-            <p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer
-                lobortis commodo ornare aliquet accumsan erat tempus amet porttitor.</p>
+<!-- Three -->
+<section id="three" class="wrapper style3 special">
+    <div class="container">
+        <header class="major">
+            <h2>Consectetur adipisicing elit</h2>
+            <p>Lorem ipsum dolor sit amet. Delectus consequatur, similique quia!</p>
         </header>
-        <div class="testimonials">
-            <section>
-                <div class="content">
-                    <blockquote>
-                        <p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem
-                            non mi integer non faucibus.</p>
-                    </blockquote>
-                    <div class="author">
-                        <div class="image">
-                            <img src="images/pic01.jpg" alt="" />
-                        </div>
-                        <p class="credit">- <strong>Jane Doe</strong> <span>CEO - ABC Inc.</span></p>
-                    </div>
+    </div>
+    <div class="container 50%">
+        <form action="#" method="post">
+            <div class="row uniform">
+                <div class="6u 12u$(small)">
+                    <input name="name" id="name" value="" placeholder="Name" type="text">
                 </div>
-            </section>
-            <section>
-                <div class="content">
-                    <blockquote>
-                        <p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem
-                            non mi integer non faucibus.</p>
-                    </blockquote>
-                    <div class="author">
-                        <div class="image">
-                            <img src="images/pic03.jpg" alt="" />
-                        </div>
-                        <p class="credit">- <strong>John Doe</strong> <span>CEO - ABC Inc.</span></p>
-                    </div>
+                <div class="6u$ 12u$(small)">
+                    <input name="email" id="email" value="" placeholder="Email" type="email">
                 </div>
-            </section>
-            <section>
-                <div class="content">
-                    <blockquote>
-                        <p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem
-                            non mi integer non faucibus.</p>
-                    </blockquote>
-                    <div class="author">
-                        <div class="image">
-                            <img src="images/pic02.jpg" alt="" />
-                        </div>
-                        <p class="credit">- <strong>Janet Smith</strong> <span>CEO - ABC Inc.</span></p>
-                    </div>
+                <div class="12u$">
+                    <textarea name="message" id="message" placeholder="Message" rows="6"></textarea>
                 </div>
-            </section>
-        </div>
+                <div class="12u$">
+                    <ul class="actions">
+                        <li><input value="Send Message" class="special big" type="submit"></li>
+                    </ul>
+                </div>
+            </div>
+        </form>
     </div>
 </section>
 
