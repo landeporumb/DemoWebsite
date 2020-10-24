@@ -15,4 +15,9 @@ class TestController extends Controller
     {
         return view('test');
     }
+
+    public function elements()
+    {
+        return view('elements');
+    }
 }

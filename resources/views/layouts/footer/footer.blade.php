@@ -1,44 +1,74 @@
 <!-- Footer -->
 <footer id="footer">
-    <div class="inner">
-        <div class="content">
-            <section>
-                <h3>Accumsan montes viverra</h3>
-                <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer
-                    non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem
-                    accumsan varius montes viverra nibh in adipiscing. Lorem ipsum dolor vestibulum ante ipsum
-                    primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing sed
-                    feugiat eu faucibus. Integer ac sed amet praesent. Nunc lacinia ante nunc ac gravida.</p>
-            </section>
-            <section>
-                <h4>Sem turpis amet semper</h4>
-                <ul class="alt">
-                    <li><a href="#">Dolor pulvinar sed etiam.</a></li>
-                    <li><a href="#">Etiam vel lorem sed amet.</a></li>
-                    <li><a href="#">Felis enim feugiat viverra.</a></li>
-                    <li><a href="#">Dolor pulvinar magna etiam.</a></li>
+    <div class="container">
+        <section class="links">
+            <div class="row">
+                <section class="3u 6u(medium) 12u$(small)">
+                    <h3>Lorem ipsum dolor</h3>
+                    <ul class="unstyled">
+                        <li><a href="#">Lorem ipsum dolor sit</a></li>
+                        <li><a href="#">Nesciunt itaque, alias possimus</a></li>
+                        <li><a href="#">Optio rerum beatae autem</a></li>
+                        <li><a href="#">Nostrum nemo dolorum facilis</a></li>
+                        <li><a href="#">Quo fugit dolor totam</a></li>
+                    </ul>
+                </section>
+                <section class="3u 6u$(medium) 12u$(small)">
+                    <h3>Culpa quia, nesciunt</h3>
+                    <ul class="unstyled">
+                        <li><a href="#">Lorem ipsum dolor sit</a></li>
+                        <li><a href="#">Reiciendis dicta laboriosam enim</a></li>
+                        <li><a href="#">Corporis, non aut rerum</a></li>
+                        <li><a href="#">Laboriosam nulla voluptas, harum</a></li>
+                        <li><a href="#">Facere eligendi, inventore dolor</a></li>
+                    </ul>
+                </section>
+                <section class="3u 6u(medium) 12u$(small)">
+                    <h3>Neque, dolore, facere</h3>
+                    <ul class="unstyled">
+                        <li><a href="#">Lorem ipsum dolor sit</a></li>
+                        <li><a href="#">Distinctio, inventore quidem nesciunt</a></li>
+                        <li><a href="#">Explicabo inventore itaque autem</a></li>
+                        <li><a href="#">Aperiam harum, sint quibusdam</a></li>
+                        <li><a href="#">Labore excepturi assumenda</a></li>
+                    </ul>
+                </section>
+                <section class="3u$ 6u$(medium) 12u$(small)">
+                    <h3>Illum, tempori, saepe</h3>
+                    <ul class="unstyled">
+                        <li><a href="#">Lorem ipsum dolor sit</a></li>
+                        <li><a href="#">Recusandae, culpa necessita nam</a></li>
+                        <li><a href="#">Cupiditate, debitis adipisci blandi</a></li>
+                        <li><a href="#">Tempore nam, enim quia</a></li>
+                        <li><a href="#">Explicabo molestiae dolor labore</a></li>
+                    </ul>
+                </section>
+            </div>
+        </section>
+        <div class="row">
+            <div class="8u 12u$(medium)">
+                <ul class="copyright">
+                    <li>&copy; Untitled. All rights reserved.</li>
+                    <li>Design: <a href="http://templated.co">TEMPLATED</a></li>
+                    <li>Images: <a href="http://unsplash.com">Unsplash</a></li>
                 </ul>
-            </section>
-            <section>
-                <h4>Magna sed ipsum</h4>
-                <ul class="plain">
-                    <li><a href="#"><i class="icon fa-twitter">&nbsp;</i>Twitter</a></li>
-                    <li><a href="#"><i class="icon fa-facebook">&nbsp;</i>Facebook</a></li>
-                    <li><a href="#"><i class="icon fa-instagram">&nbsp;</i>Instagram</a></li>
-                    <li><a href="#"><i class="icon fa-github">&nbsp;</i>Github</a></li>
+            </div>
+            <div class="4u$ 12u$(medium)">
+                <ul class="icons">
+                    <li>
+                        <a class="icon rounded fa-facebook"><span class="label">Facebook</span></a>
+                    </li>
+                    <li>
+                        <a class="icon rounded fa-twitter"><span class="label">Twitter</span></a>
+                    </li>
+                    <li>
+                        <a class="icon rounded fa-google-plus"><span class="label">Google+</span></a>
+                    </li>
+                    <li>
+                        <a class="icon rounded fa-linkedin"><span class="label">LinkedIn</span></a>
+                    </li>
                 </ul>
-            </section>
-        </div>
-        <div class="copyright">
-            &copy; Untitled. Photos <a href="https://unsplash.co">Unsplash</a>, Video <a
-                href="https://coverr.co">Coverr</a>.
+            </div>
         </div>
     </div>
 </footer>
-
-<!-- Scripts -->
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/browser.min.js"></script>
-<script src="assets/js/breakpoints.min.js"></script>
-<script src="assets/js/util.js"></script>
-<script src="assets/js/main.js"></script>

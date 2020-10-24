@@ -1,8 +1,11 @@
 <!-- Header -->
 <header id="header">
-    <a class="logo" href="/">Home</a>
-    <nav>
-        <a href="promotions">Promotions</a>
-        <a href="logout">Log out</a>
+    <h1><a href="/">Home</a></h1>
+    <nav id="nav">
+        <ul>
+            <li><a href="promotions">Promotions</a></li>
+            <li><a href="contact">Contact</a></li>
+            <li><a href="logout" class="button special">Log out</a></li>
+        </ul>
     </nav>
 </header>
