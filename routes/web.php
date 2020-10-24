@@ -17,6 +17,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'App\Http\Controllers\TestController@home');
 Route::get('/test', 'App\Http\Controllers\TestController@test');
 Route::get('/elements', 'App\Http\Controllers\TestController@elements');
+Route::get('/promotions', 'App\Http\Controllers\TestController@promotions');
+Route::get('/contact', 'App\Http\Controllers\TestController@contact');
 
 //example middleware
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home')->middleware('auth');

@@ -8,16 +8,26 @@ class TestController extends Controller
 {
     public function home()
     {
-        return view('home');
+        return view('contents.home');
     }
 
     public function test()
     {
-        return view('test');
+        return view('contents.test');
     }
 
     public function elements()
     {
-        return view('elements');
+        return view('contents.elements');
+    }
+
+    public function promotions()
+    {
+        return view('contents.promotions');
+    }
+
+    public function contact()
+    {
+        return view('contents.contact');
     }
 }
